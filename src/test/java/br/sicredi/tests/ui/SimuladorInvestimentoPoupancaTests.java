@@ -31,7 +31,6 @@ public class SimuladorInvestimentoPoupancaTests extends BaseTest {
 		this.simInvestPage.simularInvestimento();
 		assertEquals("23 meses", this.simInvestPage.getMsgTempoInvestimento());
 		assertTrue(this.simInvestPage.formularioSimulacaoInvestimentosVisivel());
-		
 	}
 	
 	/**
@@ -46,7 +45,6 @@ public class SimuladorInvestimentoPoupancaTests extends BaseTest {
 		this.simInvestPage.simularInvestimento();
 		assertEquals(obterAnosEmMeses("14") + " meses", this.simInvestPage.getMsgTempoInvestimento());
 		assertTrue(this.simInvestPage.formularioSimulacaoInvestimentosVisivel());
-		
 	}
 
 	@Test
